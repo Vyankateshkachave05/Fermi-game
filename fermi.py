@@ -1,5 +1,8 @@
-## step 1
-original_number = '123'
+import random
+
+# Step 1: Generate a random 3-digit number without duplicate digits
+digits = random.sample('0123456789', 3)   # pick 3 different digits
+original_number = ''.join(digits)
 ## create infinite while loop
 
 while True:
